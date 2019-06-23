@@ -1,0 +1,8 @@
+ja:
+  activerecord:
+    attributes:
+      book:
+        title: 書籍タイトル
+        isbn: ISBN
+        category: カテゴリ
+        format:  形式
