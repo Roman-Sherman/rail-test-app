@@ -1,7 +1,7 @@
 # rails-webapp-sample
 
 ## Preface
-This sample project uses Ruby on Rails. It provides only Web API. So, I recommend using a [vuejs-webapp-sample]() project as Web UI.
+This sample project uses Ruby on Rails. It provides only Web API. So, I recommend using a [vuejs-webapp-sample](https://github.com/ybkuroki/vuejs-webapp-sample) project as Web UI.
 
 ## Install
 Perform the following steps:
