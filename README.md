@@ -13,6 +13,7 @@ Perform the following steps:
     gem install bundler
     ```
 1. Download and install [Visual Studio Code(VS Code)](https://code.visualstudio.com).
+1. Clone this repository.
 1. Download and install dependencies.(**Only development environment**)
     ```bash
     bundle install --without=production
@@ -25,7 +26,6 @@ Perform the following steps:
 ## Starting Server
 Perform the following steps:
 
-1. Clone this repository.
 1. Start the development server.
     ```bash
     rails s -p 8080
