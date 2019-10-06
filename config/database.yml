@@ -21,10 +21,10 @@ test:
   database: db/test.sqlite3
 
 production:
-  adapter: mysql2
+  adapter: postgresql
   encoding: utf8
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: root
-  password: root
-  host: db
-  database: db
+  username: testusr
+  password: testusr
+  host: postgres-db
+  database: testdb

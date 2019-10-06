@@ -57,5 +57,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :production do
-  gem 'mysql2'
+  gem 'pg', '~> 1.1', '>= 1.1.4'
 end
