@@ -95,8 +95,8 @@ This sample uses the following libraries.
 
 |Library Name|Version|Summary|
 |:---|:---:|:---|
-|rails|5.2.0|Rails|
-|sqlite3|1.3.13|Provides the database connection service.|
+|rails|6.0.0|Rails|
+|sqlite3|1.4.1|Provides the database connection service.|
 |kaminari|1.1.1|Provides the concept of pagination.|
 |rack-cors|1.0.2|Library handling for CROS.|
 
