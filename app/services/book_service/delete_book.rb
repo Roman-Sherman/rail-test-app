@@ -1,15 +1,15 @@
 module BookService
   class DeleteBook < ApplicationService
-    def initialize(id:)
-      @id = id
+    def initialize(chg_book:)
+      @chg_book = chg_book
     end
 
     def call
-      @book = Book.find(id)
+      @book = Book.find(chg_book.id)
       @book.destroy
     end
 
     private
-    attr_reader :id
+    attr_reader :chg_book
   end
 end
