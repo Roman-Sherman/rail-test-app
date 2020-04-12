@@ -42,6 +42,9 @@ Perform the following steps:
     * Listening on tcp://localhost:8080
     Use Ctrl-C to stop
     ```
+1. Log in with the following username and password.
+    - username : ``test``
+    - password : ``password``
 
 ## Project Map
 The follwing figure is the map of this sample project.
